@@ -7,7 +7,7 @@
     <title>Book List</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="https://bootswatch.com/4/superhero/bootstrap.min.css">
-    <script src="app.js"></script>
+    <script defer src="app.js"></script>
 
     <style>
         /* Hide Arrows From Input Number */
@@ -47,6 +47,22 @@
             </div>
             <input type="button" value="Add Book" class="btn btn-primary btn-block">
         </form>
+
+        <table class="table table-striped mt-4">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>ISBN#</th>
+                    <th>Year</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="book-list">
+
+            </tbody>
+        </table>
     </div>
 
 </body>
